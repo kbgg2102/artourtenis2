@@ -8,7 +8,7 @@
         </div>
         <div class="mt-12 flex flex-col items-center">
           <h1 class="text-2xl xl:text-3xl font-extrabold">
-            Inicia sesión en ArTour
+            Regístrate en ArTour
           </h1>
           <div class="w-full flex-1 mt-8">
             <div class="flex flex-col items-center">
@@ -29,7 +29,7 @@
                       fill="#ea4335" />
                   </svg>
                 </div>
-                <span class="ml-4"> Inicia sesión con Google </span>
+                <span class="ml-4"> Regístrate con Google </span>
               </button>
 
               <button
@@ -48,14 +48,14 @@
                     </path>
                   </svg>
                 </div>
-                <span class="ml-4"> Inicia sesión con Facebook </span>
+                <span class="ml-4"> Regístrate con Facebook </span>
               </button>
             </div>
 
             <div class="my-12 border-b text-center">
               <div
                 class="leading-none px-2 inline-block text-sm text-gray-600 tracking-wide font-medium bg-white transform translate-y-1/2">
-                Inicia sesión con e-mail
+                Regístrate con e-mail
               </div>
             </div>
 
@@ -74,13 +74,13 @@
                   <circle cx="8.5" cy="7" r="4" />
                   <path d="M20 8v6M23 11h-6" />
                 </svg>
-                <span class="ml-3"> Inicia sesión </span>
+                <span class="ml-3"> Regístrate </span>
               </button>
 
               <p class="mt-6 text-xs text-gray-600 text-center">
-                No tienes cuenta?
+                Ya tienes una cuenta?
                 <a href="#" class="border-b border-gray-500 border-dotted">
-                  Regístrate Aquí
+                  Inicia sesión Aquí
                 </a>
               </p>
             </div>
@@ -96,9 +96,9 @@
 
 <script setup>
 import { ref } from 'vue'
-import Navbar from '../components/Navbar.vue'
 import imagen from '../assets/Logoartour.png'
 import backgroundImage from '../assets/imagenartour.jpg'
+import Navbar from '../components/Navbar.vue'
 
 // Variables reactivas
 const logoartour = ref(imagen)
